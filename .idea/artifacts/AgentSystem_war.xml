@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AgentSystem:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AgentSystem</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="AgentSystem.war">
+      <element id="artifact" artifact-name="AgentSystem:war exploded" />
+    </root>
+  </artifact>
+</component>
